@@ -11,7 +11,9 @@ fields:
   default: ''
   config:
     required: false
-    options: []
+    options:
+    - Working
+    - Not Working
     source:
       type: simple
       section: 
