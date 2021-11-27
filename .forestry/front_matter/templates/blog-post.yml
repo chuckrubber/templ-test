@@ -1,4 +1,21 @@
 ---
 label: Blog Post
 hide_body: true
-fields: []
+fields:
+- name: working
+  type: boolean
+  label: Working?
+  description: Does this page work?
+- name: state
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: State
+  description: State of this web app
