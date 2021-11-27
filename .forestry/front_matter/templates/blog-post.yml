@@ -21,3 +21,5 @@ fields:
       path: 
   label: State
   description: State of this web app
+pages:
+- content/blog/test.md
